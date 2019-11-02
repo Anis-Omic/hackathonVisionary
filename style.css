@@ -25,9 +25,12 @@ body {
   border-radius: 5px;
 }
 
-#header {
+#navigation {
   width: 100%;
   height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 #pageBody {
   width: 100%;
