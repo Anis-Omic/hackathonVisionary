@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="dist/build.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div style="display: flex;flex-direction: row;">
+        <button class="button" id="trainingButton">Training</button>
+        <button class="button" id="predictionButton">Prediction</button>
+      </div>
+      <p style="font-size: 24px;justify-content: flex-end;">VisionARy</p>
+    </div>
+    <div id="pageBody">
+      <div id="training"></div>
+      <div id="prediction">
+        <div id="videoWrapper"><video id="video" src="" muted autoplay playsinline></video></div>
+        <div id="translations"></div>
+      </div>
+    </div>
+    <img id="image" src="./a_1_rotate_1.jpeg"></img>
+  </body>
+</html>
